@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    
+}
+.logo{
+
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 22px;
+ width: 30%;
+ animation: logoanimate;
+ animation-duration: 2s;
+ animation-delay: 0.8s;
+}
+.width{
+    display: inline-block;
+    width: 42px;
+    vertical-align:middle;
+   
+}
+.a1{
+    display: inline;
+    margin-left:20px ;
+}
+.media{
+    
+    display: inline-block   ;
+    margin-left: 10%;
+    margin-top: 22px;
+    animation: animate;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+ 
+    
+    
+}
+.heading{
+    display:inline-block ;
+    margin-left: 10%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    
+}
+h2{
+    
+}
+.stubutton{
+    display: inline-block;
+    margin-left:10% ;
+    
+}
+.button1{
+    border-color:blue ;
+    border-radius: 20px;
+    color: blue;
+    width: 9rem;
+    height: 39px;
+    font-size: 15px;
+    background: none;
+    border-width:1.3px ;
+
+}
+.button1:hover{
+    box-shadow: 1px 1px 5px 1px;
+    
+}
+.button2{
+    margin-left: 0px;
+    background: none;
+    border-width: 1px;
+    border-color: whitesmoke;
+    width: 15%;
+    height: 30px;
+    color: blue;
+}
+.button2:hover{
+    color: green;
+}
+.feilds{
+    margin-left: 15%;
+    margin-top: 22px;
+    
+    }
+    label{
+        color:blue;
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    input{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 7px;
+       
+        height: 45px;
+        margin-top: 6px;
+        border: 0.5px solid green;
+        width:20rem;
+    }
+    option{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    select{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        
+        border: 0.5px solid green;
+    border-radius: 7px;
+        width:20rem;
+        height: 45px;
+        margin-top: 6px;
+    }
+    select:hover{
+        border:1px solid blue ;
+    }
+    input:hover{
+        border:1px solid blue ;
+    }
+    #form2{
+        display:none;
+    }
+    #CNIC{
+        width: 30rem;
+        
+    }
+    #cnicdiv{
+        margin-left:27rem;
+    }
+.fotter{
+    margin-top: 12px;
+}
+#form3{
+    display: none;
+}
+@keyframes animate {
+    from{margin-left: 0px;}
+    to{margin-left: 10%;}
+}
+@keyframes logoanimate {
+    from{
+        width: 30%;
+    }
+    to{
+        width: 50%;
+    }
+}
